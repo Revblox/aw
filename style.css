@@ -198,12 +198,15 @@ header{
     }
     .BannerLat{
         position: absolute;
-    } 
-        .BannerLat img{
-        height: 200%;
-        left:87%;
-        top:1%;
-        width:13%;
+        border-left: 1px solid black;
+    }
+    .BannerLat img{
+        border-left: 1px outset #c2beb8 ;
+        padding-left: 10px;
+        height: 350%;
+        left:90%;
+        width:10%;
+        bottom:1px;
         position: fixed;
     }
 }
