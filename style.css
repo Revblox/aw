@@ -1,0 +1,209 @@
+span{
+    position: fixed;
+    left:10px;
+    top:10px;
+    font-size: 25px;
+    color: #831b37;
+}
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #831b37;
+    background: white;
+
+}
+#menuIzq{
+    height: 100vh;
+    position: fixed;
+    width: 0;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: white;
+    overflow-x: hidden;
+    transition: .5s;
+}
+.navIzq{
+    margin-top: 30px;
+    
+}
+.navIzq > a{
+    color: #831b37;
+    display: block;
+    background: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-size: 15px;
+    padding-left: 25px;
+}
+#menuIzq{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: #831b37;
+    background: white;
+    display: block;
+    transition: .5s;
+}
+@media (max-width: 900px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;    
+    }
+    body{
+        background-color: #F6F2EB;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 100%;
+    }
+    .Container{
+        display: block;
+        padding: 1px 1px 1px 1px;
+    }
+    .Container h1{
+        color: #831b37;
+        margin-top: 1%;
+    }
+    .Container h2{
+        color: #a12244;
+    }
+    .Container h3{
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+    .Container p{
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .Proposito{ 
+        margin-left: 1%;
+        margin-top: 1%;
+        width: 75%;    
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .Articulo{ 
+        width: 100%;   
+        margin-left: 1%;
+        margin-bottom: 10%; 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    img{
+        margin-top: 2%;
+        width: 50%;
+        height: 50%;
+    }
+    .Articulo-Video {   
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: relative;
+        margin-left: 1%;
+        width: 100%;
+        padding-bottom: 56.25%;
+      }   
+      .Articulo-Video iframe {
+        position: absolute;
+        right: 10%;
+        width: 80%;
+        height: 65%;
+      }
+      .Banner{
+        width: 100%;
+      }
+      .Banner img{
+        width: 81%;
+        height: 15%;
+    }
+    .BannerLat img{
+        height: 0;
+        width:0;
+
+    }
+    .MainImg img{
+        width: 0;
+        height: 0;
+    }
+}
+@media (min-width: 901px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color:#F6F2EB;
+    
+    }
+    body{
+        background-color: #F6F2EB;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 100%;
+    }
+    .Container{
+        display: block;
+        padding: 1px 1px 1px 1px;
+    }
+    .Container h1{
+        color: #831b37;
+        margin-top: 1%;
+    }
+    .Container h2{
+        color: #a12244;
+    }
+    .Container h3{
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+    .Container p{
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .Proposito{ 
+        margin-left: 1%;
+        margin-top: 1%;
+        width: 30%;    
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .Articulo{ 
+        margin-bottom: 4%;
+        width: 40%;    
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    img{
+        margin-top: 2%;
+        width: 25%;
+        height: 25%;
+        display: flex;
+    }
+    .Articulo-Video {   
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 1%;
+        width: 75%;
+        padding-bottom: 25%;
+      }   
+      .Articulo-Video iframe {
+        position: absolute;
+        right: 25%;
+        width: 50%;
+        height: 55%;
+      }
+      .Banner{
+        width: 100%;
+      }
+      .Banner img{
+        width: 75%;
+        height: 15%;
+    }
+    .BannerLat{
+        position: absolute;
+    } 
+        .BannerLat img{
+        height: 200%;
+        left:87%;
+        top:1%;
+        width:13%;
+        position: fixed;
+    }
+}
